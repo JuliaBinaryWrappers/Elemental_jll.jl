@@ -1,216 +1,216 @@
 [[Elemental]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "1d017ca9332d2034aadb4ff03428b2e35698da90"
+git-tree-sha1 = "796ba6560042e710a9175d1c6a32041298d22542"
 libc = "musl"
 os = "linux"
 
     [[Elemental.download]]
-    sha256 = "4f58d8bd4639a4d7b1d86de2cd5b83545a189669631e6c65fe86bb26df973e54"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v1.3.3+0/Elemental.v1.3.3.aarch64-linux-musl-cxx03.tar.gz"
+    sha256 = "523b09a8d6f6fe340cc59978c87c2b89ef732d7e1726020371dd403c7353e4a6"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.aarch64-linux-musl-cxx03.tar.gz"
 [[Elemental]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "7d88f39635d0e8cc9ffe166fd8207fe30a128b2c"
+git-tree-sha1 = "0bd9b2b4f5a3712e0cd62d92d1a61ab793068603"
 libc = "musl"
 os = "linux"
 
     [[Elemental.download]]
-    sha256 = "240b4bb929c3c9d3c723d6fd3d37b25aef103295f118f82d1d36d52c7647401a"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v1.3.3+0/Elemental.v1.3.3.aarch64-linux-musl-cxx11.tar.gz"
+    sha256 = "98a3551edb6bedcf4001fd482a7ad3bda96496b4bc84ef73ea70a93b14b3694d"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.aarch64-linux-musl-cxx11.tar.gz"
 [[Elemental]]
 arch = "armv7l"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "a48cffecdaa86da4e45ab5f86f3daf96e055562f"
+git-tree-sha1 = "c80f42868e4ae3cc9574d27ca6f5ab558f90fb02"
 libc = "musl"
 os = "linux"
 
     [[Elemental.download]]
-    sha256 = "af47c75cf8a88b35f6e6ce57f4346915b0dd622d7cb919f35dbfca17c703bae1"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v1.3.3+0/Elemental.v1.3.3.armv7l-linux-musleabihf-cxx03.tar.gz"
+    sha256 = "1832a157a97fe90a3dc4f863632ac32fb6cdd46ba261b037fe04efa567718a02"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.armv7l-linux-musleabihf-cxx03.tar.gz"
 [[Elemental]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "557bdccafcc36f3cdbca158b5db0b0745b5ecbb2"
+git-tree-sha1 = "15519fb3a4f5d8a993cdbe599c3cbf1c0386715a"
 libc = "musl"
 os = "linux"
 
     [[Elemental.download]]
-    sha256 = "05bd9f8e3449784ac01f19918246db4856efcfcd4a79d2be266830ab8fa7ace6"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v1.3.3+0/Elemental.v1.3.3.i686-linux-musl-cxx11.tar.gz"
+    sha256 = "6753327b5458e3c118c66aefc4d0b313391baa532e08f457306a2e835f7a0a6b"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.i686-linux-musl-cxx11.tar.gz"
 [[Elemental]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "ed1d949e168499d1c155c38bb717c8e9e604502e"
+git-tree-sha1 = "db1951ded78e5a4014958f0cbdb987d17d99697e"
 libc = "musl"
 os = "linux"
 
     [[Elemental.download]]
-    sha256 = "86e747323a792014bcc3ebfc763792d0dd7420c1ce000514a816a611091c747f"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v1.3.3+0/Elemental.v1.3.3.x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "9977ee38008e5b1db2734a634de840a2b103c0ffaf48dfb27d96231200105103"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.x86_64-linux-musl-cxx11.tar.gz"
 [[Elemental]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "58e1bb90195841f4d4d313d163c794c1ad9a2014"
+git-tree-sha1 = "e6af0b652aa12c1f69eafc0f46ab3f2d064d32f4"
 libc = "glibc"
 os = "linux"
 
     [[Elemental.download]]
-    sha256 = "07fd0ec37ae7dae84eaa80941ff590104760e75eb2a31dc4c1392dc5638a9f1b"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v1.3.3+0/Elemental.v1.3.3.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "49e8988b1736f1870602203d81abae001b311fc9a81233cbb4aef6ba40a7f6ed"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.x86_64-linux-gnu-cxx03.tar.gz"
 [[Elemental]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "3d850cf73f5a35a8c951da04a9e4a7f1955185ca"
+git-tree-sha1 = "c956914b1cd4f0f3dcf69ee72d44dbf41400dcac"
 libc = "glibc"
 os = "linux"
 
     [[Elemental.download]]
-    sha256 = "d79c1729d394ad25b353b38b8af43b895176f0cf400e0f66fc5537ee2bf73774"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v1.3.3+0/Elemental.v1.3.3.i686-linux-gnu-cxx03.tar.gz"
+    sha256 = "2c47a27b7a4545b0c157f97eea0ff3ed05df9e7dbaed0ae60d701494aebc6cf2"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.i686-linux-gnu-cxx03.tar.gz"
 [[Elemental]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "45e2d4767cec0067609093fb0ec96fe5040092c1"
+git-tree-sha1 = "05b4bcf6b87541795cebdcb2ec42f2617af03590"
 os = "macos"
 
     [[Elemental.download]]
-    sha256 = "7f1b6a1187d6606bf38cfd2637271ce2f6effb25cb5c507f51db6c4891ab6ef8"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v1.3.3+0/Elemental.v1.3.3.x86_64-apple-darwin14-cxx11.tar.gz"
+    sha256 = "ca6f6989a6c37ddbf3c6be4fc5c4f9654b47cfcaf39f42661ac2bda479842fda"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.x86_64-apple-darwin14-cxx11.tar.gz"
 [[Elemental]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "5f9777abef642505ef8f13b3759d4999921a6771"
+git-tree-sha1 = "194129fe58e2720cd471b79ffd70e443409990dc"
 libc = "glibc"
 os = "linux"
 
     [[Elemental.download]]
-    sha256 = "fa83207f9c134ebdbd7879ba4eaf7826c18371c246ad7018cb9c659bfe4daff0"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v1.3.3+0/Elemental.v1.3.3.i686-linux-gnu-cxx11.tar.gz"
+    sha256 = "e2a23f94314738f1e61e65f88572f919a8ad591c9b4140a81f3faec4cb7ac709"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.i686-linux-gnu-cxx11.tar.gz"
 [[Elemental]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "93ffbf507bc77719f55c02ac9931e83aef9f67e3"
+git-tree-sha1 = "d35741c36b8d902f14d9eba0ed32fd61bebbedef"
 libc = "glibc"
 os = "linux"
 
     [[Elemental.download]]
-    sha256 = "9ede8e7b653372540cac4d29260bcaf78762313a78fcf9e61f14b0c6d0bf15e2"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v1.3.3+0/Elemental.v1.3.3.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "bfa7de3e4977974dba9e41681054e3c56c06870dc1ee65365a33a7aec678a198"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.x86_64-linux-gnu-cxx11.tar.gz"
 [[Elemental]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "19f8bc69cdb6eda3a918cf39ec8e927f61a1153a"
+git-tree-sha1 = "cdec30ba2ffca22e8ba9d510a6e2c895947a6c73"
 libc = "glibc"
 os = "linux"
 
     [[Elemental.download]]
-    sha256 = "8f3dae0783b59e02333c0e3fa89027461d50d62cf2b2ea34d0a21313a7e6baf6"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v1.3.3+0/Elemental.v1.3.3.powerpc64le-linux-gnu-cxx11.tar.gz"
+    sha256 = "74adc4b65b043db93ac29d58122f22b13a1326857356b0ac38334f6d9ffe7a4c"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[Elemental]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "7a2ce19c4972d2adcf952fd7c84ae4472429c8f1"
+git-tree-sha1 = "ac9912a98d018e447c76c27ce44a5b54f8c9e98e"
 libc = "glibc"
 os = "linux"
 
     [[Elemental.download]]
-    sha256 = "ad50d1c4949938aaed80ffe5607fd0bd082bb17d99e28af0f7fc444aebe08d8d"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v1.3.3+0/Elemental.v1.3.3.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "31cca9f74bc7acb4b1cd14ec29194a7711f667583e58dbe182976e5329a75be6"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.aarch64-linux-gnu-cxx11.tar.gz"
 [[Elemental]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "1fd468fc1ed027eb2c43e0ffe2b572d8929a0603"
+git-tree-sha1 = "6e2733f14fbbe7eebcd66141aa4164ac08b77142"
 libc = "musl"
 os = "linux"
 
     [[Elemental.download]]
-    sha256 = "5e282543e1a9e1030431adfc0de433f6cb523127b3040aee9d0f8862f5aef3e4"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v1.3.3+0/Elemental.v1.3.3.x86_64-linux-musl-cxx03.tar.gz"
+    sha256 = "690013517c1ffe837e9597cdc888b4b4b41489135fa6722126c6c0afc3f1dd58"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.x86_64-linux-musl-cxx03.tar.gz"
 [[Elemental]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "66c4fb8932a6f88b4234092f73d2dd2ed07d7f33"
+git-tree-sha1 = "b6d6d454d841e2edfebde7163c1b724d9d335c5d"
 os = "macos"
 
     [[Elemental.download]]
-    sha256 = "36e12dd43c35d00888c271f32d6b3fa7034efcec2872874e0d19519cd9acdea3"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v1.3.3+0/Elemental.v1.3.3.x86_64-apple-darwin14-cxx03.tar.gz"
+    sha256 = "db9f158fe9d49efbd53ef3fe8c675b645262fd6cdd7e700745713193025390ea"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.x86_64-apple-darwin14-cxx03.tar.gz"
 [[Elemental]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "496831973d13be2afb783d7ddf23472867ec23d6"
+git-tree-sha1 = "69aa7c4b383edb80774b9a28520988be59018de3"
 os = "freebsd"
 
     [[Elemental.download]]
-    sha256 = "ea5c0ac7c8f2ec7d503075b8b1b0ba5d25ae24efe7c460e606e9d4b803e940e8"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v1.3.3+0/Elemental.v1.3.3.x86_64-unknown-freebsd11.1-cxx03.tar.gz"
+    sha256 = "925e510e16fdbc531909f2052950ffabe45ca0fe7160673990d49f645d93569d"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.x86_64-unknown-freebsd11.1-cxx03.tar.gz"
 [[Elemental]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "1d647f18e8809e8588287bfb408b7a47680927b0"
+git-tree-sha1 = "fcbdf09d2cfd17fc070a17fe6326b388c8d3ba08"
 libc = "glibc"
 os = "linux"
 
     [[Elemental.download]]
-    sha256 = "98cb6f03d8a9696f185a80213f2fc619474d5864eb370a7f6228884911fdf5ae"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v1.3.3+0/Elemental.v1.3.3.powerpc64le-linux-gnu-cxx03.tar.gz"
+    sha256 = "9bd47ae839cf0515e9e888967a84a7d98a43e0ac692c655ee80ed33dce928083"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.powerpc64le-linux-gnu-cxx03.tar.gz"
 [[Elemental]]
 arch = "armv7l"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "64e93f7c68e8d2b11a0bf28e52ee78c1882da016"
+git-tree-sha1 = "fb780edfc844e911bf347b13a847ae9b60697947"
 libc = "musl"
 os = "linux"
 
     [[Elemental.download]]
-    sha256 = "0a7057316b24e0415c5fb78a2d28c072e90c56cad73d5a73dab166bfabedf470"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v1.3.3+0/Elemental.v1.3.3.armv7l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "ae84c6f4aacf30f21cbc26db0de08a62605f9d993cdd296d9e8fac61f471d892"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.armv7l-linux-musleabihf-cxx11.tar.gz"
 [[Elemental]]
 arch = "armv7l"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "57d183a5182d5c061d36383bb49f032a29d8369d"
+git-tree-sha1 = "50fc949a48143667376be70f0f5814b20053f23e"
 libc = "glibc"
 os = "linux"
 
     [[Elemental.download]]
-    sha256 = "3bc65b6f9660034d4d818cde85446f9f03f8d45236420ad41689e751ec683ca8"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v1.3.3+0/Elemental.v1.3.3.armv7l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "72a1553c51e5e316b162f42403896ec364e45d6ea42bcd1b8b9d87f7d2a59ea9"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.armv7l-linux-gnueabihf-cxx03.tar.gz"
 [[Elemental]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "9aed9fb194033a14ce6c9a0d6939f24168a8b309"
+git-tree-sha1 = "e12522b6f84d3f51e17bd5300afa373b4a6fe2a3"
 libc = "glibc"
 os = "linux"
 
     [[Elemental.download]]
-    sha256 = "a375432561040b36fb34e9708b81acdb04fae08d6e86a4997a27b566e3538378"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v1.3.3+0/Elemental.v1.3.3.aarch64-linux-gnu-cxx03.tar.gz"
+    sha256 = "285555e96f6b7fa46138553549f040a720cceb1be97e9466ede3e71c37d21a5c"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.aarch64-linux-gnu-cxx03.tar.gz"
 [[Elemental]]
 arch = "armv7l"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "e39d5928d584690c2ec269d56024ddd55bcfda28"
+git-tree-sha1 = "c434e7fb9dc89e0f2a72a8d3ad5c93e2ba3303a7"
 libc = "glibc"
 os = "linux"
 
     [[Elemental.download]]
-    sha256 = "e905ce788d4493ba86fcfe4737dc13f60bc2195b791236268e50895bad4a1c61"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v1.3.3+0/Elemental.v1.3.3.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "2cf2f28af24c783c0b6c0d43eae20f874e9144338c797ede7d1d5d4b37852c32"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[Elemental]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "4fd82389749a42c496423b91030ae422dd0532d0"
+git-tree-sha1 = "07878f0cc03bfba5fbfe9c4ea717cbb459ba2530"
 os = "freebsd"
 
     [[Elemental.download]]
-    sha256 = "82215d3add31d8ca16654e3e0e27516433d2bef707d8ffa53cbeb3fba4a21218"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v1.3.3+0/Elemental.v1.3.3.x86_64-unknown-freebsd11.1-cxx11.tar.gz"
+    sha256 = "e915c04c7eff8aba6d9b09ebd5dc347eb448c4e0a44424b5e5c0be7edf2a81a7"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.x86_64-unknown-freebsd11.1-cxx11.tar.gz"
 [[Elemental]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "9ece9181acfe0bf612f4a69685b18c212e04a121"
+git-tree-sha1 = "ef86ffd5ce5a7c93486203001c64cd747971b15c"
 libc = "musl"
 os = "linux"
 
     [[Elemental.download]]
-    sha256 = "36c4b2d99173a437899e9d9f995f9b1275275f9deb9d5fd1bfbbddc0f9c0e56c"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v1.3.3+0/Elemental.v1.3.3.i686-linux-musl-cxx03.tar.gz"
+    sha256 = "a42bd0c8eb7d216d5748ca758fb836fd2adbacb846c7925e967365a3e789c96b"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.i686-linux-musl-cxx03.tar.gz"
