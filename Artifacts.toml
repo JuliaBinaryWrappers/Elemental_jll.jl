@@ -1,216 +1,1483 @@
 [[Elemental]]
 arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "796ba6560042e710a9175d1c6a32041298d22542"
-libc = "musl"
-os = "linux"
-
-    [[Elemental.download]]
-    sha256 = "523b09a8d6f6fe340cc59978c87c2b89ef732d7e1726020371dd403c7353e4a6"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.aarch64-linux-musl-cxx03.tar.gz"
-[[Elemental]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "0bd9b2b4f5a3712e0cd62d92d1a61ab793068603"
-libc = "musl"
-os = "linux"
-
-    [[Elemental.download]]
-    sha256 = "98a3551edb6bedcf4001fd482a7ad3bda96496b4bc84ef73ea70a93b14b3694d"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.aarch64-linux-musl-cxx11.tar.gz"
-[[Elemental]]
-arch = "armv7l"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "c80f42868e4ae3cc9574d27ca6f5ab558f90fb02"
-libc = "musl"
-os = "linux"
-
-    [[Elemental.download]]
-    sha256 = "1832a157a97fe90a3dc4f863632ac32fb6cdd46ba261b037fe04efa567718a02"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.armv7l-linux-musleabihf-cxx03.tar.gz"
-[[Elemental]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "15519fb3a4f5d8a993cdbe599c3cbf1c0386715a"
-libc = "musl"
-os = "linux"
-
-    [[Elemental.download]]
-    sha256 = "6753327b5458e3c118c66aefc4d0b313391baa532e08f457306a2e835f7a0a6b"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.i686-linux-musl-cxx11.tar.gz"
-[[Elemental]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "db1951ded78e5a4014958f0cbdb987d17d99697e"
-libc = "musl"
-os = "linux"
-
-    [[Elemental.download]]
-    sha256 = "9977ee38008e5b1db2734a634de840a2b103c0ffaf48dfb27d96231200105103"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.x86_64-linux-musl-cxx11.tar.gz"
-[[Elemental]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "e6af0b652aa12c1f69eafc0f46ab3f2d064d32f4"
-libc = "glibc"
-os = "linux"
-
-    [[Elemental.download]]
-    sha256 = "49e8988b1736f1870602203d81abae001b311fc9a81233cbb4aef6ba40a7f6ed"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.x86_64-linux-gnu-cxx03.tar.gz"
-[[Elemental]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "c956914b1cd4f0f3dcf69ee72d44dbf41400dcac"
-libc = "glibc"
-os = "linux"
-
-    [[Elemental.download]]
-    sha256 = "2c47a27b7a4545b0c157f97eea0ff3ed05df9e7dbaed0ae60d701494aebc6cf2"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.i686-linux-gnu-cxx03.tar.gz"
-[[Elemental]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "05b4bcf6b87541795cebdcb2ec42f2617af03590"
+git-tree-sha1 = "c54251c2448beb16503b2df649669cac5b6c6eea"
+lazy = true
+libgfortran_version = "5.0.0"
+mpi = "mpich"
 os = "macos"
 
     [[Elemental.download]]
-    sha256 = "ca6f6989a6c37ddbf3c6be4fc5c4f9654b47cfcaf39f42661ac2bda479842fda"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.x86_64-apple-darwin14-cxx11.tar.gz"
-[[Elemental]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "194129fe58e2720cd471b79ffd70e443409990dc"
-libc = "glibc"
-os = "linux"
-
-    [[Elemental.download]]
-    sha256 = "e2a23f94314738f1e61e65f88572f919a8ad591c9b4140a81f3faec4cb7ac709"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.i686-linux-gnu-cxx11.tar.gz"
-[[Elemental]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "d35741c36b8d902f14d9eba0ed32fd61bebbedef"
-libc = "glibc"
-os = "linux"
-
-    [[Elemental.download]]
-    sha256 = "bfa7de3e4977974dba9e41681054e3c56c06870dc1ee65365a33a7aec678a198"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.x86_64-linux-gnu-cxx11.tar.gz"
-[[Elemental]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "cdec30ba2ffca22e8ba9d510a6e2c895947a6c73"
-libc = "glibc"
-os = "linux"
-
-    [[Elemental.download]]
-    sha256 = "74adc4b65b043db93ac29d58122f22b13a1326857356b0ac38334f6d9ffe7a4c"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.powerpc64le-linux-gnu-cxx11.tar.gz"
+    sha256 = "67ea43955330244844e519e1b292a1bcade8a72161edd5610c02b540a6bd1e3e"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.aarch64-apple-darwin-libgfortran5-mpi+mpich.tar.gz"
 [[Elemental]]
 arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "ac9912a98d018e447c76c27ce44a5b54f8c9e98e"
-libc = "glibc"
-os = "linux"
-
-    [[Elemental.download]]
-    sha256 = "31cca9f74bc7acb4b1cd14ec29194a7711f667583e58dbe182976e5329a75be6"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.aarch64-linux-gnu-cxx11.tar.gz"
-[[Elemental]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "6e2733f14fbbe7eebcd66141aa4164ac08b77142"
-libc = "musl"
-os = "linux"
-
-    [[Elemental.download]]
-    sha256 = "690013517c1ffe837e9597cdc888b4b4b41489135fa6722126c6c0afc3f1dd58"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.x86_64-linux-musl-cxx03.tar.gz"
-[[Elemental]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "b6d6d454d841e2edfebde7163c1b724d9d335c5d"
+git-tree-sha1 = "58c6c771049cb1ba285409172470021446bb6aa9"
+lazy = true
+libgfortran_version = "5.0.0"
+mpi = "mpitrampoline"
 os = "macos"
 
     [[Elemental.download]]
-    sha256 = "db9f158fe9d49efbd53ef3fe8c675b645262fd6cdd7e700745713193025390ea"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.x86_64-apple-darwin14-cxx03.tar.gz"
-[[Elemental]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "69aa7c4b383edb80774b9a28520988be59018de3"
-os = "freebsd"
-
-    [[Elemental.download]]
-    sha256 = "925e510e16fdbc531909f2052950ffabe45ca0fe7160673990d49f645d93569d"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.x86_64-unknown-freebsd11.1-cxx03.tar.gz"
-[[Elemental]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "fcbdf09d2cfd17fc070a17fe6326b388c8d3ba08"
-libc = "glibc"
-os = "linux"
-
-    [[Elemental.download]]
-    sha256 = "9bd47ae839cf0515e9e888967a84a7d98a43e0ac692c655ee80ed33dce928083"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.powerpc64le-linux-gnu-cxx03.tar.gz"
-[[Elemental]]
-arch = "armv7l"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "fb780edfc844e911bf347b13a847ae9b60697947"
-libc = "musl"
-os = "linux"
-
-    [[Elemental.download]]
-    sha256 = "ae84c6f4aacf30f21cbc26db0de08a62605f9d993cdd296d9e8fac61f471d892"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.armv7l-linux-musleabihf-cxx11.tar.gz"
-[[Elemental]]
-arch = "armv7l"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "50fc949a48143667376be70f0f5814b20053f23e"
-libc = "glibc"
-os = "linux"
-
-    [[Elemental.download]]
-    sha256 = "72a1553c51e5e316b162f42403896ec364e45d6ea42bcd1b8b9d87f7d2a59ea9"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.armv7l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "3ef11cfd16a397b52f16d9c287593916865ce038ac399c1a970ca61481ee54bd"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.aarch64-apple-darwin-libgfortran5-mpi+mpitrampoline.tar.gz"
 [[Elemental]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "e12522b6f84d3f51e17bd5300afa373b4a6fe2a3"
+git-tree-sha1 = "7c533622416a9c5e80415569c330becb64de8406"
+lazy = true
 libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "mpich"
 os = "linux"
 
     [[Elemental.download]]
-    sha256 = "285555e96f6b7fa46138553549f040a720cceb1be97e9466ede3e71c37d21a5c"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.aarch64-linux-gnu-cxx03.tar.gz"
+    sha256 = "72d976ea0485cec2d42fc35deadfd195675daf4039960e789b1657907e430ce8"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.aarch64-linux-gnu-libgfortran3-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "867065e6784cfb3b86e9fdcd1ff9f6aa8f8a84ae"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "95385a1fa00cebb44e0afce4f7028f14d838d97acbfdac83a662e910122195d1"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.aarch64-linux-gnu-libgfortran3-cxx03-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "88a0dd66df0b9d65e26020d38b934628c69364e8"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "72a2beaf465c714fb71b1c2bd1b5e273763d43da60c28004095afee07db318d9"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.aarch64-linux-gnu-libgfortran3-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5d7ee357c0de108ef39c2b1d838835603286f607"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "7ba6fc5343ac17c2f4891a95e2a0942658c5ecd28fbbf4b5c397a53d1608f716"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.aarch64-linux-gnu-libgfortran3-cxx11-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "6ef3742baa2c0c60e2ff7a2f5180e94e5a651e47"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "3f5844226720b94f51aa94bdc44dedc5da93f59b75a817b4b9876a6d110ea97c"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.aarch64-linux-gnu-libgfortran4-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "9a7f3dd56c2b9f4d2f1cda448bca2d2d9e1b06f5"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "349c84e697d98191f71591d91fb0f4a5346d920cfa04e67d8ef09d4dabfb4d0c"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.aarch64-linux-gnu-libgfortran4-cxx03-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "59daa9e03713cbd9144e6e1140822e435f8d3975"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "f9fe3433f224949899592488bb82c7d47d5d77c3ca1a4e3567ff0d1b252f4c43"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.aarch64-linux-gnu-libgfortran4-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "696630add163f2738328201628d06a6039445b5c"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "17ad4861b62f069a9a90c9251ba4ccac95cf104196aa74cfb4fff7108fd7012e"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.aarch64-linux-gnu-libgfortran4-cxx11-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f97f3b46e956450d12ef9960fa094b82068183b5"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "e47378457d47ad084182ca7ceea91eecd0def19155d110036a7bb6da114b8a7b"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.aarch64-linux-gnu-libgfortran5-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "6cd070af3c001edc4cbd58eb911ff29c9f3253b8"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "722c4f9be00b1184b8a3863ed42410649b4df88f1250d05b7e05995905235f81"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.aarch64-linux-gnu-libgfortran5-cxx03-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a61411349619b76c3b208804f31d29c1894b6cd5"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "ec297502ed927bf481a490aa1ff58ca3c93363d59e82cb6423ec7f756ba14d0f"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.aarch64-linux-gnu-libgfortran5-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e819326f7889f33ce58379a9c8e89ca210738b8a"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "2761ca748c79e153cf1addb7605e98649f60fb8d25bcf32016524bf32f39ad6a"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.aarch64-linux-gnu-libgfortran5-cxx11-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "1533a288bad72bb8381eb5fc2af9bb43f697db76"
+lazy = true
+libc = "musl"
+libgfortran_version = "3.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "f1365f31bc5c095ea8e34d61f00a4ca463359915f0a1303113dbd8a2e33f394b"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.aarch64-linux-musl-libgfortran3-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "45276141886ae9fb8ec9ee81b59da367e2f382a6"
+lazy = true
+libc = "musl"
+libgfortran_version = "3.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "3027919884729f88dbc1da92d93e62931a9b914ac4d64fa936a27cd41591698a"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.aarch64-linux-musl-libgfortran3-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f4d3a97cf412677c7a3ee09a64221dcf93ed47fb"
+lazy = true
+libc = "musl"
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "e08bead9e142d1852a4e551a2563211a013cb39040a20269e08fad13130e7a66"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.aarch64-linux-musl-libgfortran4-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c4dd03695453bc4a5cbf44701ddfbe2568db2523"
+lazy = true
+libc = "musl"
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "082ffaaa15978e5e52ffbadf169bc3f54976ab1669fba1cb7a867c73ae113e3a"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.aarch64-linux-musl-libgfortran4-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e8730caa1df854a79e51d052f72ce5709831d214"
+lazy = true
+libc = "musl"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "e018042dfaf6e68108756ec9f966966db9dd627cf923da5f9128c66efe66f729"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.aarch64-linux-musl-libgfortran5-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "7741e49c45c8ac11700d35b234dc278f68c40235"
+lazy = true
+libc = "musl"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "8e95cf9bb8c80232683bb30ae0f4588af1b98204df9848503359d6ffbb19693c"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.aarch64-linux-musl-libgfortran5-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "fa05246e14d7a3aaa51bfd713d296c22391363e9"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "d3e97e899b908fc2893b618ac2106832340bea8d3e6187dc51fe73dceefec190"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv6l-linux-gnueabihf-libgfortran3-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "bac00722d4e09f16dd68199adf3a2a861d06a857"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "83444b659f97b7b7f2d2203dc8c00a3f56cbcebe07833287473b9ac0738b47bf"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv6l-linux-gnueabihf-libgfortran3-cxx03-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5d704300a0339c716e00a2ca55fb805c10f7d78f"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "a8f3d2c3b4cc452a50fd1907346f3ac4a0d3a5fd8557c4f50ec0ad3146aa66ff"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv6l-linux-gnueabihf-libgfortran3-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ba42da854395ce48dc2d1d9aaed33456c96da429"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "7b3825ce799027428e89f7d4675a5c928c74ab5a7dbd67b812866bb76af6d3f9"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv6l-linux-gnueabihf-libgfortran3-cxx11-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "784ea95398083df46b898dfe618d798917266051"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "5a81c4f4a42f4b43d0e767ad9d9fe42af291e629c73868f0ac400e13af02720d"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv6l-linux-gnueabihf-libgfortran4-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "1338a025f1440c7583055fb02173b62ae7177e80"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "ffc43d899c85cc0fa83d9c81fcad00409c671e38bf0fbf35d1ff98ed7daf12e1"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv6l-linux-gnueabihf-libgfortran4-cxx03-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b878e76c9287e30cca558d6e000950c693bb49e5"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "e515ff41c2ec480ec44ce21b454e685293e238521092e9ccb2bcb39d4a63db19"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv6l-linux-gnueabihf-libgfortran4-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ba11f1c176f854821239e242ac8b3e54945b48e8"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "c67280a5075383a5c09fc4bea4feb1976429ac06fb15774f57869ee621c7b8b1"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv6l-linux-gnueabihf-libgfortran4-cxx11-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f162a924a50f4bed3149a9c1de986c65a120f069"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "eea7ac1edcd7cd9cf4a9a622e63cad848c63326d8010ff96e5361bb8842fc845"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv6l-linux-gnueabihf-libgfortran5-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "bce2e24222f6322a0beb8564a75fff9c2e7b2072"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "82bbb8887b76948755637a3633367761b14899664807eb3736e124de9695e14f"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv6l-linux-gnueabihf-libgfortran5-cxx03-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "673bfa85777c9897adc4572b368c435608763e83"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "aca1baa746300bab34d1ae5470850e3f839b2587ff51c23ae0f103bb73ec611f"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv6l-linux-gnueabihf-libgfortran5-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "d8e788352678a442078ab7ea6d7a57e2c80a8308"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "f8a2838e8526cca01cb35c2ced6dbd1a1d692aed66fee22cd2fbadfb98332b46"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv6l-linux-gnueabihf-libgfortran5-cxx11-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ab7c86904644300951cf41fc8170fdb863540cef"
+lazy = true
+libc = "musl"
+libgfortran_version = "3.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "ec36f40b43a9501ac02528b28a9b6e089e795ca93cf14efe17b003394d2e8f68"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv6l-linux-musleabihf-libgfortran3-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0c5d4925874621a0dd34a2450a9b97e857378457"
+lazy = true
+libc = "musl"
+libgfortran_version = "3.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "122d8ac810bc06da152d4aa4ba608b56ed22bf11cf5ff93edbf07b239c140611"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv6l-linux-musleabihf-libgfortran3-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "cdd54c9ca729ff2b007325844faa8012acc08537"
+lazy = true
+libc = "musl"
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "6ad97b78882bc2842a7e6310d6f1465cf598a55f8cd0036757921b0e78ad69f9"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv6l-linux-musleabihf-libgfortran4-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2881305364697fd6e2a16e6ed041bc3e83db5eb8"
+lazy = true
+libc = "musl"
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "7c5f9a65fa2bc05e78b70ee28cac70e565466f945a81a3d762aa842e1db21e2e"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv6l-linux-musleabihf-libgfortran4-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "5e92c36e6a41de9d44a2d9524802cba534f87c75"
+lazy = true
+libc = "musl"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "7c00235eedf1a30aad1c927aa7a9855f4877eb5a4cc66c11920f57fb595c6fb4"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv6l-linux-musleabihf-libgfortran5-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "936daa09b6456bb85897add95b8ebf64c05accdc"
+lazy = true
+libc = "musl"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "fe8f14edd3424c6aad4897e8419038d848d22cf6e1453cdfdb326fafe98b25f3"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv6l-linux-musleabihf-libgfortran5-cxx11-mpi+mpich.tar.gz"
 [[Elemental]]
 arch = "armv7l"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "c434e7fb9dc89e0f2a72a8d3ad5c93e2ba3303a7"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "74ff5957f662e7fde5e53e83ff657b181a046f58"
+lazy = true
 libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "mpich"
 os = "linux"
 
     [[Elemental.download]]
-    sha256 = "2cf2f28af24c783c0b6c0d43eae20f874e9144338c797ede7d1d5d4b37852c32"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "00c1c694f81481cb6f5cfcc534ab6a97dd46912e447f67947b96bf6c5cf3c1dd"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv7l-linux-gnueabihf-libgfortran3-cxx03-mpi+mpich.tar.gz"
 [[Elemental]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "07878f0cc03bfba5fbfe9c4ea717cbb459ba2530"
-os = "freebsd"
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "c227e3b5c5071fc89b164cb458396baf8ad23971"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "mpitrampoline"
+os = "linux"
 
     [[Elemental.download]]
-    sha256 = "e915c04c7eff8aba6d9b09ebd5dc347eb448c4e0a44424b5e5c0be7edf2a81a7"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.x86_64-unknown-freebsd11.1-cxx11.tar.gz"
+    sha256 = "a77d2c2c9617bc73804ec89332b8908df962e4e467c144b5880eb90e5fb41e3b"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv7l-linux-gnueabihf-libgfortran3-cxx03-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9d29fbed2cb63bfb3806e794cac49c3c28e72b08"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "98e62548657b42fcd9bb268eee0bb53a8e4722ee06294d5bd8b4e60ddd63bc2e"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv7l-linux-gnueabihf-libgfortran3-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "bbc6d48187c22d1559da57e0617ec288d894cb74"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "d368ee6048a16e0d3db09b9e0f08fb7625daece68cf3f64e2a58a44105468cc8"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv7l-linux-gnueabihf-libgfortran3-cxx11-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "8b8f3521a87adb8fc94a4218be2f4dc9e02a5770"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "581acb19e714bdedb44573b1ba63ede6c8c298ec7b46ed9010cd835d71f825dd"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv7l-linux-gnueabihf-libgfortran4-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "18fb9bb4024dec667cd0115226d50288e36ec6fd"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "de5b2facf1971f11eb85e16be61cbc66d7385e7e235fcaf4888990c5d044ed66"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv7l-linux-gnueabihf-libgfortran4-cxx03-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c2f91c18001c20ca2fe3b062e023502101ab6955"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "b857b795c924e68f48586695d38b30eeb1cd384a23cdd187cf85eb89a78bd4cc"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv7l-linux-gnueabihf-libgfortran4-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "edecdb75276c67f83b21d6d057dff2bf90928cb8"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "cfbef98c5715a1603486c81c0d17bc601e19463edc617ca2ce96c919de55918e"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv7l-linux-gnueabihf-libgfortran4-cxx11-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "37cdca1999357ffbab58f3fa33abbc37d743259b"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "2d64bbccf95c8fa4342363d81f94c0ae86d3e2b0379a15ff60c29469a0b15601"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv7l-linux-gnueabihf-libgfortran5-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "c7fabebea9237378aa63ea3647c644e45d590d31"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "bf5de1035471dd841b4ad29582ac402511be0dafc5dd6d5506fdbbc5a6c0a293"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv7l-linux-gnueabihf-libgfortran5-cxx03-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "4270cad345e5aab630fc55c4cb6a0062ee249ce7"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "001b20bc7d1e7931a74da189de48c82d2a43cf940984345b839c8a730043eecd"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv7l-linux-gnueabihf-libgfortran5-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "caf11ae324c6d22a204246fbff9ca779971dcc18"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "ea86d19b91aef680a29cae317ab629097d3f37427f2460423468b82cf7a99b69"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv7l-linux-gnueabihf-libgfortran5-cxx11-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "2ccff38ca3b96af1ed886743467d4821cb20a253"
+lazy = true
+libc = "musl"
+libgfortran_version = "3.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "891d266e6bafbaecf0e6bf204709e0376b1b95a667581efd8b9fcdac414cf877"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv7l-linux-musleabihf-libgfortran3-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "59e1492e28bec96c7e025c97e91d1f32917647d7"
+lazy = true
+libc = "musl"
+libgfortran_version = "3.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "7d14bcdd76a01477d45e3a9978b6a38eec1276c3f1610fa48f05045e91acf4d7"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv7l-linux-musleabihf-libgfortran3-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ce400fb38cc9f7242d021390e0ffa05eed597e7c"
+lazy = true
+libc = "musl"
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "5b4a5840243d7b0366897330f51ce4ad0a4b0ac71ba2be554845b4f7b8e8cbb5"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv7l-linux-musleabihf-libgfortran4-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "7b443ebb5739e3bf291f64126d0dbefd2228007a"
+lazy = true
+libc = "musl"
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "0aefe3b043119e6be4da062ea8074875c367b5c64bd68d97fc8cf0e3311a1f9c"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv7l-linux-musleabihf-libgfortran4-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "0b54f252be2223464fb5996871da09d2c67c6988"
+lazy = true
+libc = "musl"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "8c227738dbe0fe4dbd79bdec5b106d5f257c2dd5e0e262582318ac390f153821"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv7l-linux-musleabihf-libgfortran5-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0cf00023a133543a85830b654a32d0e8f4c426fe"
+lazy = true
+libc = "musl"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "fc90d70ca81f3fffca07c2a2056fd7f83e7a5962d8a0aef6e3716ac73a3522d4"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.armv7l-linux-musleabihf-libgfortran5-cxx11-mpi+mpich.tar.gz"
 [[Elemental]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "ef86ffd5ce5a7c93486203001c64cd747971b15c"
-libc = "musl"
+git-tree-sha1 = "ecd6afde576764092c295ea6b814a559740be4ce"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "mpich"
 os = "linux"
 
     [[Elemental.download]]
-    sha256 = "a42bd0c8eb7d216d5748ca758fb836fd2adbacb846c7925e967365a3e789c96b"
-    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.7+1/Elemental.v0.87.7.i686-linux-musl-cxx03.tar.gz"
+    sha256 = "7c97947d558d0157fb9495564c72047319394a25e7350ba3d244655894b48cc8"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.i686-linux-gnu-libgfortran3-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f2de364f7aa62d406ad7af2b3a6e80c5bc134a85"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "76e3f03438db1bbf6f1b0ac78b54744628244bc7c55f513fe18b5675d79f4472"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.i686-linux-gnu-libgfortran3-cxx03-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "fce7d16ee5f7345470dbeb9778379e3774ce2c7f"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "c506ff75a75a086dab39372a75a0d4a9f80047312784160989e33a6824dc885d"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.i686-linux-gnu-libgfortran3-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "14f78c84468b73d2774f1389ec2c02b6cc82de14"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "7d5e1049dfee2acfd468b4e9667ff1b7a00c7fcbab2750970e49e3409a1f4b30"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.i686-linux-gnu-libgfortran3-cxx11-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "5ca4dc79f946f88b0356e7ecd15ada5e6b604835"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "93367aa44a0534ff56febd2da702a7bb224d864a3a31200d7a03523eab72b785"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.i686-linux-gnu-libgfortran4-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ea9abbe7e617fe282fde5b10c92e31b2b6956c3f"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "16b00cbd830fb9c4d32b3ee0830e199eb78a402699de613119425d8ae41fe212"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.i686-linux-gnu-libgfortran4-cxx03-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3e4b598a2c162296256c0d8f5024ddc1858ae809"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "f5f46e533e1046d0d70b50312728fb00c2871cfac556e93d9ca97dd1a3650d01"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.i686-linux-gnu-libgfortran4-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "7cc3420d29381e71d84e6c585d6c6be1c3732674"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "999f6db67767b8c72f8e06dcd842f8c29682ca941be9c3b94d55a0371f8e02ec"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.i686-linux-gnu-libgfortran4-cxx11-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "5ba7b00d60d77f5a65c9afbbbedd8837730f9d20"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "f0aad31b0746d8a34f449ef3c37145085cf7ac62582bdb05a93c288054a263ae"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.i686-linux-gnu-libgfortran5-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "a8b146ab58ef88430ef961e5fada2d502a6fab83"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "6eb39906d95926eb049cd889759086858fc2d3c85339d0798818dcb1e659498c"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.i686-linux-gnu-libgfortran5-cxx03-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c6f9aa8e911e5a32c0538621f5eeb06755db265c"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "b82500299ef85d9215245c06a3857d3137f4c8420967e0679d064b65354827f0"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.i686-linux-gnu-libgfortran5-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "bb63b16b4af32b5316a1ffd56e2a5218ae47806e"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "f9ec3be6674350e9a7966bdc986457c9043d61d4176bfc8a59459246860080b4"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.i686-linux-gnu-libgfortran5-cxx11-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f0b6dff4a67a11c2e9a2f5513887b63ce817fee2"
+lazy = true
+libc = "musl"
+libgfortran_version = "3.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "864739bcf87839b5ce0615000bf63f0d0dbc7f0fb7a77dc768d71f33033357a1"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.i686-linux-musl-libgfortran3-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0687dcbfbbd851a1387eeadebcc3e8d33774e8d3"
+lazy = true
+libc = "musl"
+libgfortran_version = "3.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "0944a8fd972dc1f00a65496916d3ab63f74de6cc46b45e4254ff82903de9313d"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.i686-linux-musl-libgfortran3-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e1bc95621601e52b471ee847db9fde97e051c372"
+lazy = true
+libc = "musl"
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "818ebb45a2de11373273d32acf98716473ca80bca3848c56c415a7ac4c3e2277"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.i686-linux-musl-libgfortran4-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e7b84efe0c9f93a3fae1cbe7d752f77360c37dde"
+lazy = true
+libc = "musl"
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "927b3ab42a9fd227df85d6449ca25c7bf36049f7b0c055a11c65db0069694281"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.i686-linux-musl-libgfortran4-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "34d5e78c6865d051bf8902acb0e8d82e370c1ce6"
+lazy = true
+libc = "musl"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "c822a4af6e0956d4c16539515a8c4a2b54dbaf014801828e436a31946e02b562"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.i686-linux-musl-libgfortran5-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0b1552bb23f1e9ff0d4bd56f7e1bb59e5af9a933"
+lazy = true
+libc = "musl"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "28d9dec630cf8bf6c3d4beffbf7518c4dde0d5cbb561da5d5cd3c5cb4e1ecb70"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.i686-linux-musl-libgfortran5-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "0f2641c14b7c3bcd276943f32ba6030933d72461"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "7cfe03aeb4a0d22def0b5f41d291210d6cb6dd883c524e8adc0180b564f7701f"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.powerpc64le-linux-gnu-libgfortran3-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "d8826ecf9165e9041624713596e8cdb4e3cd4645"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "5e8ccd350fb1ad6bcca6b0288f7066b98cf677cd4e05b4ce17557333858704bb"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.powerpc64le-linux-gnu-libgfortran3-cxx03-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9f222c2381bd086153234e0f59572326d8889d2a"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "17596273a823b86d66d1c87e63c213019d56b76bfdf2460b5e941d884db61dda"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.powerpc64le-linux-gnu-libgfortran3-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "508e477e328be575b7baad84182f314593adf9e6"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "9bb7b17e998448d83045c052b93d386bff4d66268cf62496b26a0a79c21ccd22"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.powerpc64le-linux-gnu-libgfortran3-cxx11-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "a25a5267fdbf55d405f4f169fc62863245831ecc"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "cde459c7e40967058276133c4c9fa23c294ed5d77a23cc77cbba86d706a215ed"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.powerpc64le-linux-gnu-libgfortran4-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "c365cb8f30a18462352a4c9a8b0a6e1b42e49ba1"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "6d4e884d377c9776aa66bd146d389656504bb31b1d1ebafa0c00448b904748f5"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.powerpc64le-linux-gnu-libgfortran4-cxx03-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f25985ee48f116d4e910dc0599684d9a15f0b055"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "1dd3e0869655ebb26cfd79ae4afff5ce62d151de25934c0bbc9ea38b71368aa5"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.powerpc64le-linux-gnu-libgfortran4-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "636a92f19cb6581cb8368ba21fcb87e0b52aedd6"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "4538157125716f455b9a38b2e2a511c317dd4fce84bb6a02cd95764680426a76"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.powerpc64le-linux-gnu-libgfortran4-cxx11-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ca14e5fb22b726d84709cf4e41bb8b8d141f7e4e"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "57a88230b10a1df03efa0abbfe4ea6be54f2da3905bb09477113c2384e4355f8"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.powerpc64le-linux-gnu-libgfortran5-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "c02b3d8c8242aa4f92e87083efa8648784f53d6c"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "07ac6c3bba69903b3d1108404912b1cb35e50c37eaa32f9841b87545ce4766cc"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.powerpc64le-linux-gnu-libgfortran5-cxx03-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3fc288e08c0cf4589b4ee37c2e362b5a9eaeaf6c"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "b81e14ae99876b1b58d16567745cc46f950bd0a22641ddf208f265cf1a111600"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.powerpc64le-linux-gnu-libgfortran5-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "33436a941f69dc5ae36fac040a38986b9fb6a4e8"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "3c5d9df207d00dff5df10d0c3ffc269533e7c31671020de867964b3c4c7821d8"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.powerpc64le-linux-gnu-libgfortran5-cxx11-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+git-tree-sha1 = "18e60f8c5ff9c0aa56202106c7547996e1bc8b63"
+lazy = true
+libgfortran_version = "3.0.0"
+mpi = "mpich"
+os = "macos"
+
+    [[Elemental.download]]
+    sha256 = "ef08a7d4ca31310373900c18c996aa665afeb566ba49264d027b54df8fdaf3df"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-apple-darwin-libgfortran3-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+git-tree-sha1 = "26d217d1ef0baa5dcc621f771ce86c5987d10d98"
+lazy = true
+libgfortran_version = "3.0.0"
+mpi = "mpitrampoline"
+os = "macos"
+
+    [[Elemental.download]]
+    sha256 = "62ac092faa4dbdac7712970abe94ec00cb31f03be5d5a4a4e885e72f319dd57e"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-apple-darwin-libgfortran3-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+git-tree-sha1 = "fd10f2196fbbce8ad37add8da244613634621729"
+lazy = true
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "macos"
+
+    [[Elemental.download]]
+    sha256 = "d9dd0ee1a6e8c1e5454c036eeaf62a1bcf9e3ec5a04221f4e00515a9ecb04453"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-apple-darwin-libgfortran4-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+git-tree-sha1 = "630ed3a32e8d3694c73b79e6cf9bdc421a914a57"
+lazy = true
+libgfortran_version = "4.0.0"
+mpi = "mpitrampoline"
+os = "macos"
+
+    [[Elemental.download]]
+    sha256 = "e9199a49513297e76603ac40edd52e274b2be42d83cabf83c44e7fbff7724354"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-apple-darwin-libgfortran4-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+git-tree-sha1 = "d7cb7e7aa0e2c6ab62b5eb2bf349d8bfcf04d042"
+lazy = true
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "macos"
+
+    [[Elemental.download]]
+    sha256 = "05d450fcc3f8445dca702e0c25677c8433868e50c673c3ea83e441d4581ece0d"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-apple-darwin-libgfortran5-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+git-tree-sha1 = "4e6ed2edbb47881b5da75898c9b01fb3f6f5030e"
+lazy = true
+libgfortran_version = "5.0.0"
+mpi = "mpitrampoline"
+os = "macos"
+
+    [[Elemental.download]]
+    sha256 = "a2810b3aa3b300f34851ab4146cd4909850bf3d1bc30febed1bd53c6a94d11a3"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-apple-darwin-libgfortran5-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "eeb4b2f7812ef0bd7491a35e553b3378a9263422"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "ef1dc52536d2fd4efe54b0d94355dc726d736eedbc8f1bb6433d85622ca75ed5"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-linux-gnu-libgfortran3-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "bf74bc08de8734ea70d8e64fea4b0e9d8fc7b3fb"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "4a9bb29fbd571f271dc15607605f6ec6ace4a78e1549aaeea5389967617770ac"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-linux-gnu-libgfortran3-cxx03-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "77de5e5aae05d12190cd10426e30080bf50c4c77"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "022a7fc4704fc1d6390fef46f1c0751422aff33624c806703e7935f9f86ae5bb"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-linux-gnu-libgfortran3-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5be9d50f47d488fe2ad3a24fcb4f0fb3fcfdc259"
+lazy = true
+libc = "glibc"
+libgfortran_version = "3.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "dd04358a27c1db5df18b1f1b30d4fb09ad3e2c4b748eb5c2e7512a05a48ea5b5"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-linux-gnu-libgfortran3-cxx11-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "a0cd93a656273574f032c2c645ffd1da894eb861"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "803342e1d1d665ce8094f4afa0773196cf21bd662c520e6e1c75fdc37f2ae393"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-linux-gnu-libgfortran4-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "d3872612d63a33c7b2d243eaeb975babe7e20a87"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "a8b0860633eadd5de7fb77d2a8336c765ce30d2247fadf422ddba58870f3bd74"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-linux-gnu-libgfortran4-cxx03-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "34dd87efb1de5011f1784211168ecd4c3f6df000"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "1810a4a7366730faebe8f9364eb5a6fd1acdb944877dec4a0d1fb1c52469b7ed"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-linux-gnu-libgfortran4-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "58374c69a87330a3496c393c06da6a5386106352"
+lazy = true
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "e23d5c39e4dfb2c24e605195df399b7591212d2c7f806cccda9d04b09267d747"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-linux-gnu-libgfortran4-cxx11-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "152649770e78e7838981ebefd7dafd7003997c6e"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "231b693b67ce6f01cd59bc47a166c71f5f37c21d414db85206763d65d43ac127"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-linux-gnu-libgfortran5-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "b2c314904f7796f541c191da314f731f14e03d08"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "bc14b03eee1847b86ad4a703354726597bcc13705ed0e403e40f06a4ee762ce0"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-linux-gnu-libgfortran5-cxx03-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "00c4b85c5038075a016214980d8382da16215d89"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "007e2b213b32fc4b824513a98f12cc2cf1ae110f72962dc7d15cc95d7b1e9fc9"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-linux-gnu-libgfortran5-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "87213a96326c1ad618a10f66acb679b8b9712fcd"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "1931b946d639fadcb03ef2925115cbbcbbd1b2222387dfa8c484725203038b78"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-linux-gnu-libgfortran5-cxx11-mpi+mpitrampoline.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "2a81155e0cea7ac1c5f13ccf545df36086ec03f7"
+lazy = true
+libc = "musl"
+libgfortran_version = "3.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "75ee6ae594acd2ff5f981e060ab16c83000301a366b668d2cf6d16df7582d11f"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-linux-musl-libgfortran3-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "cc302385f90c90edf91dc6e171025f396b89e0e7"
+lazy = true
+libc = "musl"
+libgfortran_version = "3.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "be8b6e3d05e26b3eb22f67d5799b80ca62ab7515c13c53275230b3657458c838"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-linux-musl-libgfortran3-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "efd87fc9e61df27c17f3080ecc32a7bb3b75bd17"
+lazy = true
+libc = "musl"
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "0000d323e652a711cc7f41661d616419150c066f3f079fac04ea2e9290b6e12d"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-linux-musl-libgfortran4-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2a0e98c67f0099dcb5377805d9a9b1efdbf226dc"
+lazy = true
+libc = "musl"
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "68de3b61413c6fe68b06e572fbeced58bf4632a307982ce2c112537380c162c3"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-linux-musl-libgfortran4-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e9e56b5145745ccd1524b4bd6a056ba789f62015"
+lazy = true
+libc = "musl"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "ba7c6653b666ccc4ecf3fa6547e290b6ead13bd3f29b3dcc7344ea7d57ecf988"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-linux-musl-libgfortran5-cxx03-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "34e92df1370ac79825bc52b0d2813690b114088b"
+lazy = true
+libc = "musl"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[Elemental.download]]
+    sha256 = "03dd39557b5164788956ecbe5beea34fc6e8499afcf238e1f355149634983a82"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-linux-musl-libgfortran5-cxx11-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+git-tree-sha1 = "421ade2ca84de6313db42f75169b734db1f8a02b"
+lazy = true
+libgfortran_version = "3.0.0"
+mpi = "mpich"
+os = "freebsd"
+
+    [[Elemental.download]]
+    sha256 = "cd8a51f726135998ae0d87bf748650e1eef0f643f5d921981ae59f1bb2bf614b"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-unknown-freebsd-libgfortran3-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+git-tree-sha1 = "39d0e43a344a99da51506f7dae4d6133345dd318"
+lazy = true
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "freebsd"
+
+    [[Elemental.download]]
+    sha256 = "ea90187743d60a833b3664d493cc018906bf291e5868b28090446683ef467b1c"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-unknown-freebsd-libgfortran4-mpi+mpich.tar.gz"
+[[Elemental]]
+arch = "x86_64"
+git-tree-sha1 = "5d4641e9042dc2bedc6f709e5463f0f85ffa0bd7"
+lazy = true
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "freebsd"
+
+    [[Elemental.download]]
+    sha256 = "3d608a4de2a4633652dc15ab22e50d9541acd3f9fc14c03c42b5158f2d95cb3c"
+    url = "https://github.com/JuliaBinaryWrappers/Elemental_jll.jl/releases/download/Elemental-v0.87.8+0/Elemental.v0.87.8.x86_64-unknown-freebsd-libgfortran5-mpi+mpich.tar.gz"
